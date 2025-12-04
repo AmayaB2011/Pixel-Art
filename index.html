@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Colour By Number</title>
+</head>
+<body>
+    <div id="container">
+        <p id="back" onclick="back()"></p>
+        <div id="sidePanal">
+        </div>
+        <canvas id="board"></canvas>
+        <canvas id="darkColour"></canvas>
+    </div>
+    <div id="loadingContainer">
+        <div id="loading"></div>
+    </div>
+    <div id="allImagesMenu">
+        <div class="menu">
+            <div id="hamburger">
+                <div class="hamburger-line" id="line1"></div>
+                <div class="hamburger-line" id="line2"></div>
+                <div class="hamburger-line" id="line3"></div>
+            </div>
+            <div id="menuItems">
+            </div>
+        </div>
+        <nav id="navbar">
+            <div id="navhover"></div>
+        </nav>
+        <div id="sections"></div>
+    </div>
+    <div id="reset">
+        <div id="warning">
+            <p>This will reset all your progress. Are you sure?</p>
+            <div id="buttons">
+                <button class="warningButton">Yes</button>
+                <button class="warningButton">No</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
